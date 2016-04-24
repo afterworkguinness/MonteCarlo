@@ -9,7 +9,12 @@ Inputs:
 - Equity tranche hurdle rate (for discounting future cash flows)
 - Details of collaterals (unerlying assets) 
 - Details of tranches 
+ 
+ 
+Implementation Details:
+----------------------
 - Use R to generate correlated randon normal vectors
+- Use Apache Spark to run the simulations across multiple machines 
 
 Outputs:
 -------
