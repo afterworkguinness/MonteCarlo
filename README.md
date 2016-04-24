@@ -19,3 +19,4 @@ Implementation Details:
 ----------------------
 - Use R to generate correlated randon normal vectors
 - Use Apache Spark to run the simulations across multiple machines 
+- Use Cucumber for integration tests
