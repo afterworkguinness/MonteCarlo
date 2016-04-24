@@ -10,13 +10,12 @@ Inputs:
 - Details of collaterals (unerlying assets) 
 - Details of tranches 
  
- 
-Implementation Details:
-----------------------
-- Use R to generate correlated randon normal vectors
-- Use Apache Spark to run the simulations across multiple machines 
-
 Outputs:
 -------
 - For each combination of probability of default and correlation, generate the average losses for each tranche
 - Credit VaR for each tranche
+
+Implementation Details:
+----------------------
+- Use R to generate correlated randon normal vectors
+- Use Apache Spark to run the simulations across multiple machines 
