@@ -18,7 +18,7 @@ Outputs:
 Implementation Details:
 ----------------------
 - Use SparkR to generate simulation inputs and to run the simulations across multiple machines 
-- 
+
 Steps:
 ------
 
